@@ -9,9 +9,7 @@ import ProductCard from '../component/ProductCard';
 function Home() {
   return (
     <div className='home'>
-      <div className='product'>
-      <ProductCard />
-      </div>
+      Home
     </div>
   );
 }
