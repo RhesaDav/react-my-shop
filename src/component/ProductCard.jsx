@@ -27,9 +27,15 @@ function ProductCard () {
       <div className='product-container'>
         {product.map((product) => (
           <div className='product-card'>
-            <h1 className='product-title'>{product.title}</h1>
+            <div className='product-title'>
+            <h1>{product.title}</h1>
+            </div>
+            <div>
             <img alt={product.id} src={product.image} className='product-img'/>
+              </div>
+            <div>
             <span>$ {product.price}</span>
+              </div>
             <div>
             <button>Detail</button>
             <button>Add to Cart</button>

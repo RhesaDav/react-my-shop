@@ -1,18 +1,22 @@
 .product-container {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: auto auto;
   padding: 10px;
 }
 
 .product-card {
-  width: 100%;
+  width: 200px;
   background-color: burlywood;
   padding: 5px;
   margin: 10px;
 }
 
 .product-title {
-  font-size: 10px;
+  font-size: 7px;
+  background-color: aqua;
+  text-align: center;
+  height: 50px;
 }
 
 .product-img {
